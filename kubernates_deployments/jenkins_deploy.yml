@@ -31,7 +31,7 @@ spec:
       volumes:
       - name: jenkins-vol
         hostPath:
-          path: /var/nfs/jenkins
+          path: /var/tmp/jenkins
           type: Directory
 
 ---
