@@ -952,5 +952,5 @@ Preparing for CKA program was quite challenging, but once you get the final resu
 
 Finally : 
 
-![CKA Certification](https://github.com/jaipalkomakula/K8/blob/main/jaipal-komakula-certified-kubernetes-administrator-cka-certificate.pdf)
+[CKA Certification badge](https://github.com/jaipalkomakula/K8/blob/main/jaipal-komakula-certified-kubernetes-administrator-cka-certificate.pdf)
 
