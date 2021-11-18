@@ -1,14 +1,14 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: jenkins
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+  #name: jenkins
 
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jenkins
-  namespace: jenkins
+  namespace: argocd-test
 spec:
   replicas: 1
   selector:
@@ -39,7 +39,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: jenkins
-  namespace: jenkins
+  namespace: argocd-test
 spec:
   type: NodePort
   ports:
